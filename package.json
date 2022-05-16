@@ -1,6 +1,6 @@
 {
   "name": "midtown",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Middleware orchestrator for AWS Lambda",
   "main": "dist/Orchestrator.js",
   "types": "dist/Orchestrator.d.ts",
