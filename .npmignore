@@ -1,1 +1,6 @@
-*.test.ts
+# Ignore everything
+**
+
+# Allow certain files and directories
+!/dist/**
+/dist/**/*.test.*
