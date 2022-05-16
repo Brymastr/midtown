@@ -1,0 +1,35 @@
+{
+  "name": "midtown",
+  "version": "1.0.0",
+  "description": "Middleware orchestrator for AWS Lambda",
+  "main": "dist/Orchestrator.js",
+  "types": "dist/Orchestrator.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "./node_modules/.bin/tsc",
+    "prepublish": "./node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brymastr/midtown.git"
+  },
+  "keywords": [],
+  "author": "Brycen Dorsay <dorsay@live.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brymastr/midtown/issues"
+  },
+  "homepage": "https://github.com/brymastr/midtown#readme",
+  "dependencies": {
+    "aws-lambda": "^1.0.7",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.97",
+    "@types/jest": "^27.5.1",
+    "@types/node": "^17.0.33",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.2",
+    "ts-node": "^10.7.0"
+  }
+}
